@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    management_solutions,
     tesla,
     shopify,
     carrent,
@@ -116,10 +116,10 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
+      title: "Data Science consultant",
+      company_name: "Management Solutions",
+      icon: management_solutions,
+      iconBg: "#012152",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",

@@ -1,19 +1,15 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
-const Computers = ( { isMobile } ) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+const Computers = ({ isMobile }) => {
+  const computer = useGLTF('./desktop_pc/scene.gltf');
   return (
     <mesh>
-      <hemisphereLight
-        intensity={0.15}
-        groundColor="black" />
-      <pointLight 
-      position={isMobile ? [0.5, 0.25, 0] : [0, 0, 0]}
-      intensity={1} />
+      <hemisphereLight intensity={0.15} groundColor="black" />
+      <pointLight position={isMobile ? [0.5, 0.25, 0] : [0, 0, 0]} intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -22,46 +18,72 @@ const Computers = ( { isMobile } ) => {
         castShadow
         shadow-mapSize={256}
       />
-      <primitive object={computer.scene}
-        scale={isMobile ? 0.55 : 0.75}
-        position={isMobile ? [0.5, -2.25, -1.5] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}/>
+      <primitive object={computer.scene} scale={isMobile ? 0.55 : 0.75} position={isMobile ? [0.5, -2.25, -1.5] : [0, -3.25, -1.5]} rotation={[-0.01, -0.2, -0.1]} />
     </mesh>
-  )
-}
+  );
+};
 
 const ComputerCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const rendererRef = useRef();
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 640px)');
     setIsMobile(mediaQuery.matches);
-    
+
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
-    }
+    };
     mediaQuery.addEventListener('change', handleMediaQueryChange);
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleContextLost = (event) => {
+      event.preventDefault();
+      const renderer = rendererRef.current;
+      if (renderer) {
+        renderer.forceContextLoss();
+      }
+    };
+
+    const handleContextRestored = () => {
+      // Restablecer y volver a renderizar tu escena aquí
+    };
+
+    const renderer = rendererRef.current;
+    if (renderer) {
+      renderer.domElement.addEventListener('webglcontextlost', handleContextLost, false);
+      renderer.domElement.addEventListener('webglcontextrestored', handleContextRestored, false);
     }
-  }, [])
+
+    return () => {
+      if (renderer) {
+        renderer.domElement.removeEventListener('webglcontextlost', handleContextLost, false);
+        renderer.domElement.removeEventListener('webglcontextrestored', handleContextRestored, false);
+      }
+    };
+  }, []);
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true}}
+      gl={{ preserveDrawingBuffer: true }}
+      onCreated={({ gl }) => {
+        rendererRef.current = gl;
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false}
-        maxPolarAngle={Math.PI / 2}
-        minPolarAngle={Math.PI / 2}/>
-        <Computers isMobile = { isMobile }/>
+        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
+        <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
     </Canvas>
-  )
-}
+  );
+};
 
-export default ComputerCanvas
+export default ComputerCanvas;

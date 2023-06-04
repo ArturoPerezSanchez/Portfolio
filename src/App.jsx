@@ -1,7 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { useMediaQuery } from 'react-responsive';
 
-const app = () => {
+const App = () => {
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
+
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -11,7 +14,7 @@ const app = () => {
         </div>
         <About/>
         <Experience/>
-        <Tech/>
+        {isDesktop && <Tech/>} {/* Renderiza <Tech/> solo en versión de escritorio */}
         <Works/>
         <Feedbacks/>
         <div className="relative z-0">
@@ -23,4 +26,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App;

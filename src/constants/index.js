@@ -171,6 +171,7 @@ import {
   
   const testimonials = [
     {
+      head: "Serious, professional and exigent",
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "Sara Lee",
@@ -179,6 +180,7 @@ import {
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
+      head: "Really good teamplayer",
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
       name: "Chris Brown",
@@ -187,6 +189,7 @@ import {
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
+      head: "Always ready to help",
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",

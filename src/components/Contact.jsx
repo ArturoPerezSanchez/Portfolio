@@ -5,7 +5,7 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
-
+import { useMediaQuery } from 'react-responsive';
 
 
 const Contact = () => {
@@ -54,6 +54,7 @@ const Contact = () => {
     }
     )
   }
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
@@ -90,12 +91,9 @@ const Contact = () => {
       </form>
       </motion.div>
 
-      <motion.div 
-      variants={slideIn('right', "tween", 0.2, 1)}
-      className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div>
+
+        {isDesktop && <EarthCanvas />} {/* Renders <EarthCanvas /> only in desktop devices */}
+
     </div>
   )
 }

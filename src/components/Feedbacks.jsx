@@ -39,7 +39,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14`}>
-        <Carousel showThumbs={false} showStatus={false} showArrows={false} infiniteLoop autoPlay={false}>
+        <Carousel showThumbs={false} showStatus={false} showArrows={false} infiniteLoop autoPlay>
         {testimonials.map((testimonial) => (
             <div key={testimonial.name}>
               <FeedbackCard {...testimonial} />

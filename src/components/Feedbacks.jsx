@@ -21,7 +21,7 @@ const FeedbackCard = ({ testimonial, name, designation, company, image, head }) 
               <p className='text-white text-2xl text-base'> <span className='blue-text-gradient'>@</span> {name}</p>
               {/* position */}
               <p style={{borderRight: "solid"}}> &nbsp; &nbsp;</p>
-              <p className='mt-1 text-gray-300 text-sm'>&nbsp; &nbsp;{designation} of {company} </p>
+              <p className='text-gray-300 text-sm'>&nbsp; &nbsp;{designation} of {company} </p>
             </div>
         </div>
       </div>

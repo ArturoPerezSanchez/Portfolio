@@ -54,7 +54,7 @@ const Contact = () => {
     }
     )
   }
-  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define the minimum width to consider the device as desktop
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>

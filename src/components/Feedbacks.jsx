@@ -34,7 +34,7 @@ const FeedbackCard = ({ testimonial, name, designation, company, image, head }) 
 );
 
 const Feedbacks = () => {
-  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define the minimum width to consider the device as desktop
 
   return (
     <div className='mt-12 bg-black-100 rounded-[20px]'>

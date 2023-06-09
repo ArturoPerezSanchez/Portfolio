@@ -3,7 +3,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 import { useMediaQuery } from 'react-responsive';
 
 const App = () => {
-  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define the minimum width to consider the device as desktop
 
   return (
     <BrowserRouter>

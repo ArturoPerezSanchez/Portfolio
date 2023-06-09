@@ -4,9 +4,12 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 import { testimonials } from '../constants';
+import { useMediaQuery } from 'react-responsive';
+
 
 const FeedbackCard = ({ testimonial, name, designation, company, image, head }) => (
   <>
+  <div className='md:ml-10 md:mr-10'>
     <div className='sm:ml-[50px] sm:mr-10'>
       <div style = {{background: "linear-gradient(135deg, #322266, #100d25)"}} className='border border-sky-500 md:border-0 sm:shadow-[10px_10px_40px_rgba(0,0,0)] md:flex rounded-[20px] items-center mb-16 min-h-[500px] max-h-[500px] md:min-h-[400px] md:max-h-[400px]'>
 
@@ -26,10 +29,13 @@ const FeedbackCard = ({ testimonial, name, designation, company, image, head }) 
         </div>
       </div>
     </div>
+  </div>
   </>
 );
 
 const Feedbacks = () => {
+  const isDesktop = useMediaQuery({ minWidth: 768 }); // Define el ancho mínimo para considerar como versión de escritorio
+
   return (
     <div className='mt-12 bg-black-100 rounded-[20px]'>
       <div className={`${styles.padding} rounded-2xl min-h-[200px] sm:min-h-[300px]`}>
@@ -39,7 +45,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14`}>
-        <Carousel showThumbs={false} showStatus={false} showArrows={false} infiniteLoop autoPlay>
+        <Carousel showThumbs={false} showStatus={false} showArrows={isDesktop} infiniteLoop autoPlay>
         {testimonials.map((testimonial) => (
             <div key={testimonial.name}>
               <FeedbackCard {...testimonial} />

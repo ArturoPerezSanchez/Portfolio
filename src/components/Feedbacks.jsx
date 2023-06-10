@@ -37,7 +37,7 @@ const Feedbacks = () => {
   const isDesktop = useMediaQuery({ minWidth: 768 }); // Define the minimum width to consider the device as desktop
 
   return (
-    <div className='mt-12 bg-black-100 rounded-[20px]'>
+    <div className='bg-black-100 rounded-[20px]'>
       <div className={`${styles.padding} rounded-2xl min-h-[200px] sm:min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
@@ -57,4 +57,4 @@ const Feedbacks = () => {
   );
 };
 
-export default SectionWrapper(Feedbacks, '');
+export default SectionWrapper(Feedbacks, 'feedbacks');

@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
     management_solutions,
-    tesla,
-    shopify,
+    qbi_solutions,
+    ntt_data,
     carrent,
     jobit,
     tripguide,
@@ -42,15 +41,15 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Data Analyst",
       icon: mobile,
     },
     {
-      title: "Data Analyst",
+      title: "Product Owner",
       icon: backend,
     },
     {
@@ -116,55 +115,38 @@ import {
   
   const experiences = [
     {
+      title: "Product Owner",
+      company_name: "QBI Solutions",
+      icon: qbi_solutions,
+      iconBg: "#DDDDDD",
+      date: "April 2023 - Present",
+      points: [
+        "Defined and prioritized product features working closely with stakeholders to gather requirements, analyze market trends, and define the product vision ensuring alignment with business goals and user needs.",
+        "Managed the product roadmap, maintained a strategic roadmap that outlines the product's direction, milestones, and release plans.",
+        "Monitorized and optimized product performance analyzing key metrics, user feedback, and market trends to assess the product's performance and identify areas for improvement.",
+      ],
+    },
+    {
       title: "Data Science consultant",
       company_name: "Management Solutions",
       icon: management_solutions,
       iconBg: "#012152",
-      date: "March 2020 - April 2021",
+      date: "September 2021 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lead a team of 4 analysts in various management control projects for a major financial institution.",
+        "Worked on the complete product development cycle for a major European bank, from the initial idea to production involving an important research component.",
+        "Detected, analyzed and automated different repetitive tasks that were being carried out in the company.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineering internship",
+      company_name: "NTT Data",
+      icon: ntt_data,
+      iconBg: "#6785C1",
+      date: "March 2019 - October 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed +25 Web‑Components for the local government that are being used daily by thousands of end users in Andalusia.",
+        "Modeled some of the main views of the company’s web portals and designed the developing environment including fully automated CI/CD pipelines",
       ],
     },
   ];

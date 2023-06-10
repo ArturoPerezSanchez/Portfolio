@@ -21,10 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import qbi_solutions from "./company/qbi_solutions.png";
 import management_solutions from "./company/management_solutions.png";
-import tesla from "./company/tesla.png";
+import ntt_data from "./company/ntt_data.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +51,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  ntt_data,
+  qbi_solutions,
   management_solutions,
-  tesla,
   carrent,
   jobit,
   tripguide,

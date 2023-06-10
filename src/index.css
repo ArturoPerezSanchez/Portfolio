@@ -126,6 +126,11 @@
   transform: translateZ(0);
 }
 
+.hover-animation {
+  transform: rotateY(720deg);
+  transition: transform 0.5s ease;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

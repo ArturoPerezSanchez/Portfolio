@@ -11,7 +11,7 @@ const FeedbackCard = ({ testimonial, name, designation, company, image, head }) 
   <>
   <div className='md:ml-10 md:mr-10'>
     <div className='sm:ml-[50px] sm:mr-10'>
-      <div style = {{background: "linear-gradient(135deg, #322266, #100d25)"}} className='border border-sky-500 md:border-0 sm:shadow-[10px_10px_40px_rgba(0,0,0)] md:flex rounded-[20px] items-center mb-16 min-h-[400px] max-h-[400px]'>
+      <div style = {{background: "linear-gradient(135deg, #322266, #100d25)"}} className='border border-sky-500 md:border-0 sm:shadow-[10px_10px_40px_rgba(0,0,0)] md:flex rounded-[20px] items-center mb-16 min-h-[450px] max-h-[450px]'>
 
         <div className='w-24 md:min-w-[100px] md:ml-[-50px] m-auto'>
           <img src={image} alt={`feedback by ${name}`} className='w-16 h-24 md:min-h-[100px] md:w-25 md:h-25 mt-4 md:mt-0 rounded-full' />

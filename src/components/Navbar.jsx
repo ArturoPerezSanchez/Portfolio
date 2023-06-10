@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from "../styles"
 import { navLinks } from "../constants"
-import { logo, menu, close } from "../assets"
+import { logo, menu, close, github, linkedin, leetcode } from "../assets"
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -21,6 +21,11 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain"></img>
           <p className="text-white text-[18px] font-bold cursor-pointer flex">Arturo<span className="sm:block hidden"> &nbsp;Pérez Sánchez</span></p>
         </Link>
+        <div className='hidden md:flex gap-8 ml-3 '>
+          <a className="rounded-full" target="_blank" href="https://github.com/ArturoPerezSanchez" ><img src={github} alt="github" className="w-9 h-9 rounded-full object-contain"></img></a>
+          <a className="rounded-full" target="_blank" href="https://www.linkedin.com/in/arturoperezsanchez/"><img src={linkedin} alt="linkedin" className="w-9 h-9 rounded-full object-contain"></img></a>
+          <a className="rounded-full" target="_blank" href="https://leetcode.com/ArturoPerez/"><img src={leetcode} alt="leetcode" className="w-9 h-9 rounded-full object-contain"></img></a>
+        </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li

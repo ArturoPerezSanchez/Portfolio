@@ -50,8 +50,8 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col gap-5'>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Arturo</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 p-2`}>I am a software engineer <br className='sm:block hidden'/>passionate about data management</p>
+          <h1 className={`${styles.heroHeadText} text-white`}>👋 Welcome! <span className="text-[#915eff]">Arturo</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 p-2`}>I am a software engineer <br className='sm:block hidden'/> driven by the realms of Web Development and AI. </p>
           {isDesktop ? <div></div> :  <MobileHero />}  
         </div>
       </div>

@@ -29,7 +29,7 @@ const Hero = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const shouldBeVisible = scrollTop === 0; // Change this condition as per your requirement
+      const shouldBeVisible = scrollTop <= 30; // Change this condition as per your requirement
       setIsScrolled(!shouldBeVisible);
     };
 

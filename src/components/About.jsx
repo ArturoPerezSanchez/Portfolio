@@ -29,15 +29,16 @@ const About = () => {
   return (
     <>
     <motion.div variants = {textVariant()}>
-    <p className={styles.sectionSubText}>Introduction</p>
     <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants = {fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+    With a solid foundation in software engineering principles and a constant thirst for knowledge, I thrive on the exciting challenge of translating complex ideas into elegant and efficient digital solutions.
+    <br/>
+    I have honed my expertise over the course of 2 years in the industry. My hands-on experience and continuous learning enable me to stay ahead of the curve in an ever-evolving field.
+  
     </motion.p>
-    <div className="mt-20 flex flex-wrap gap-10 justify-center">
+    <div className="mt-10 flex flex-wrap gap-10 justify-center">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />  
         

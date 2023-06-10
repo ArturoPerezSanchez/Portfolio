@@ -27,6 +27,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+
+    const service_ID = "service_f8c4id5";
+    const templateID = "template_zzlr2sc";
+    const public_key = "gtu4zOSweC0laqsnB";
     
     emailjs.send(service_ID, templateID, 
       {

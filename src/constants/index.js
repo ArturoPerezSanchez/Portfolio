@@ -4,16 +4,13 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     management_solutions,
     qbi_solutions,
@@ -21,7 +18,10 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    sql,
+    java,
+    c_plus_plus,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -60,55 +60,68 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      color: '#00b4d8',
+      icon: python,
+    },
+    {
+      name: "C++",
+      color: '#03045e',
+      icon: c_plus_plus,
+    },
+    {
+      name: "Java",
+      color: '#90e0ef',
+      icon: java,
+    },
+    {
       name: "HTML 5",
+      color: '#0077b6',
       icon: html,
     },
     {
       name: "CSS 3",
+      color: '#caf0f8',
       icon: css,
     },
     {
       name: "JavaScript",
+      color: '#03045e',
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
+      color: '#0077b6',
       icon: nodejs,
     },
     {
+      name: "React JS",
+      color: '#03045e',
+      icon: reactjs,
+    },
+    {
+      name: "Tailwind CSS",
+      color: '#90e0ef',
+      icon: tailwind,
+    },
+    {
       name: "MongoDB",
+      color: '#00b4d8',
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "SQL",
+      color: '#caf0f8',
+      icon: sql,
     },
     {
-      name: "git",
+      name: "Git",
+      color: '#0077b6',
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
+      name: "Docker",
+      color: '#00b4d8',
       icon: docker,
     },
   ];

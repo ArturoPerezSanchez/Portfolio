@@ -14,13 +14,12 @@ const App = () => {
         </div>
         <About/>
         <Experience/>
-        {isDesktop && <Tech/>} {/* Renders <Tech/> only in desktop devices */}
+        <Tech/>
         <Works/>
         <Feedbacks/>
         <div className="relative z-0">
-          <Contact/>
-          {isDesktop && <StarsCanvas/>} {/* Renders <StarsCanvas/> only in desktop devices */}
-          
+        <Contact/>
+        {isDesktop && <StarsCanvas/>} {/* Renders <StarsCanvas/> only in desktop devices */}
         </div>
       </div>
     </BrowserRouter>

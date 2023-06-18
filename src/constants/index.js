@@ -1,8 +1,12 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    Software_developer_logo,
+    data_analyst_logo,
+    PO_logo,
+    content_logo,
+    Software_developer_background,
+    data_analyst_background,
+    PO_background,
+    content_background,
     javascript,
     html,
     css,
@@ -41,20 +45,28 @@ import {
   
   const services = [
     {
-      title: "Software Developer",
-      icon: web,
+      title: "Software developer",
+      icon: Software_developer_logo,
+      description: "7 Months of experience As a software developer at NTT Data, Implementing intuitive user interfaces, eensuring seamless user experiences and delivering high-quality frontend solutions.",
+      background: Software_developer_background,
     },
     {
       title: "Data Analyst",
-      icon: mobile,
+      icon: data_analyst_logo,
+      description: "1.5 Years of experience as data analyst at Management Solutions, \n Analyzing vast volumes of financial data for a major bank, Developing sophisticated models while collaborating with cross-functional teams.",
+      background: data_analyst_background,
     },
     {
       title: "Product Owner",
-      icon: backend,
+      icon: PO_logo,
+      description: "As the Product Owner of QBI Solutions, I am leading cross-functional teams in developing innovative software solutions that have revolutionized data analysis in the renewable energies industry.",
+      background: PO_background,
     },
     {
       title: "Content Creator",
-      icon: creator,
+      icon: content_logo,
+      description: "As a content creator for a blog focused on web development, AI, and science curiosities, I have enjoyed diving deep into the realm of cutting-edge technologies and exploring their intersection with human curiosity.",
+      background: content_background,
     },
   ];
   

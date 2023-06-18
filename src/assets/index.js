@@ -24,6 +24,15 @@ import java from "./tech/Java.png";
 import c_plus_plus from "./tech/C++.png";
 
 
+import Software_developer_logo from "./cards/Software_developer_logo.png";
+import data_analyst_logo from "./cards/Data_analyst_logo.png";
+import PO_logo from "./cards/PO_logo.png";
+import content_logo from "./cards/Content_logo.png";
+import Software_developer_background from "./cards/Software_developer_background.png";
+import data_analyst_background from "./cards/Data_analyst_background.png";
+import PO_background from "./cards/PO_background.png";
+import content_background from "./cards/Content_background.png";
+
 import qbi_solutions from "./company/qbi_solutions.png";
 import management_solutions from "./company/management_solutions.png";
 import ntt_data from "./company/ntt_data.png";
@@ -62,4 +71,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  Software_developer_logo,
+  data_analyst_logo,
+  PO_logo,
+  content_logo,
+  Software_developer_background,
+  data_analyst_background,
+  PO_background,
+  content_background,
 };

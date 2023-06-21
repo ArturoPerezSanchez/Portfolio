@@ -21,10 +21,7 @@ const About = () => {
     I have honed my expertise over the course of 2 years in the industry. My hands-on experience and continuous learning enable me to stay ahead of the curve in an ever-evolving field.
   
     </motion.p>
-
-
-
-    <div className="mt-10 flex flex-wrap gap-[6em] justify-center">
+    <div className="mt-10 flex flex-wrap gap-[5em] justify-around">
       {services.map((service) => (
            <parallax-card
            title={service.title}

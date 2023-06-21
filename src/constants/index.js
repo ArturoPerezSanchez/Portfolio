@@ -178,31 +178,45 @@ import {
   
   const testimonials = [
     {
-      head: "Serious, professional and exigent",
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      head: "Positive, valuable team player.",
+      testimonial:  "I found him to be a good teammate, he contributed positively to the good atmosphere in the group.",
+      name: "Jesus Olmeda",
+      designation: "Senior Consultant",
+      company: "Management Solutions",
+      image: "https://media.licdn.com/dms/image/D4D03AQFPguqZov_HFQ/profile-displayphoto-shrink_400_400/0/1636124199078?e=1692835200&v=beta&t=CZNIVe5GUWmxRHe7EpLhK7GA-JRKh9Dfc8zZkt8JfE0",
     },
     {
-      head: "Really good teamplayer",
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      head: "Pivotal to project success.",
+      testimonial: "Arturo is a proactive, organized and motivated person. He was key in the success of the project contributing ideas, learning and adapting quickly to the project environment.",
+      name: "Joaquin Gonzalez",
+      designation: "Software Integration Engineer",
+      company: "EDICOM",
+      image: "https://media.licdn.com/dms/image/C5603AQEhBVW_sxHNew/profile-displayphoto-shrink_400_400/0/1650908011469?e=1692835200&v=beta&t=N5PWPcE_uz6jawYVBo3jY69va7Raj04N0nZWKpfBmGE",
     },
     {
-      head: "Always ready to help",
+      head: "Valued team member and client advocate.",
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "With a good attitude and good technical skills. In the time he was working with us Arturo became a reference person for both colleagues and the client.",
+      name: "Victor Julio Sánchez",
+      designation: "Supervisor",
+      company: "Management Solutions",
+      image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1692835200&v=beta&t=DcWp6qpfGTsSUm7OSL29nu57E_uwxXtvrGBE-8p2P5Y",
+    },
+    {
+      head: "Dedicated and problem-solver.",
+      testimonial: "An exceptional collaborator. High involvement in the work, always giving his maximum effort to obtain outstanding results. Characterized by his constant search for more efficient ways to perform the assigned tasks.",
+      name: "Mikhael Del Aguila",
+      designation: "Data Visualization Expert",
+      company: "EDNON",
+      image: "https://media.licdn.com/dms/image/D4D35AQFrfZ2JwB8t4g/profile-framedphoto-shrink_400_400/0/1675880155124?e=1687978800&v=beta&t=kQYPjYycQoSI_AKPm-9ogbXi9i7EA6ONiacyKos-iLU",
+    },
+    {
+      head: "Highly valuable team member",
+      testimonial: "His contribution to the team has been very significant, demonstrating his knowledge and leadership. He is a decisive person capable of working independently without neglecting cooperation with her colleagues.",
+      name: "Joaquín Romero",
+      designation: "I+D Researcher",
+      company: "Proxya",
+      image: "https://media.licdn.com/dms/image/C5603AQHbHp-0DvKTmg/profile-displayphoto-shrink_400_400/0/1548962642212?e=1692835200&v=beta&t=LgeIQapM6bSM8B3ZlPmd7g1qlK3aBdvIpG0v82kDMfI",
     },
   ];
   

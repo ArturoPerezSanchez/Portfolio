@@ -53,7 +53,7 @@ import {
     {
       title: "Data Analyst",
       icon: data_analyst_logo,
-      description: "1.5 Years of experience as data analyst at Management Solutions, \n Analyzing vast volumes of financial data for a major bank, Developing sophisticated models while collaborating with cross-functional teams.",
+      description: "1.5 Years of experience as data analyst at Management Solutions, Analyzing vast volumes of financial data for a major bank, Developing sophisticated models while collaborating with cross-functional teams.",
       background: data_analyst_background,
     },
     {
@@ -65,7 +65,7 @@ import {
     {
       title: "Content Creator",
       icon: content_logo,
-      description: "As a content creator for a blog focused on web development, AI, and science curiosities, I have enjoyed diving deep into the realm of cutting-edge technologies and exploring their intersection with human curiosity.",
+      description: "As a content creator for a blog focused on web development, AI, and science curiosities, I enjoy diving deep into the realm of cutting-edge technologies and exploring their intersection with human necesities.",
       background: content_background,
     },
   ];

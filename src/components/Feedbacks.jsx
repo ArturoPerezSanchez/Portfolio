@@ -17,14 +17,14 @@ const FeedbackCard = ({ mobile, testimonial, name, designation, company, image, 
             <img src={image} alt={`feedback by ${name}`} className='w-16 h-24 md:min-h-[100px] md:w-25 md:h-25 mt-4 md:mt-0 rounded-full' />
           </div>
           <div className='flex flex-col min-h-[400px] ml-4 mr-4 justify-around'>
-            <p className='text-white font-black text-2xl md:text-4xl font-bold mt-4 '>&quot;{head}&quot;</p>
+            <p className='text-white font-black text-xl font-bold mt-4 '>&quot;{head}&quot;</p>
             <p className='text-white md:text-[20px] mt-8 mb-8 md:m-auto'>{testimonial}</p>
               <div className='flex justify-center items-center pb-4'>
                 {/* name */}
-                <p className='text-white text-xl text-base'>{name}</p>
+                <p className='text-white text-[16px] text-base'>{name}</p>
                 {/* position */}
-                <p className='p-2' style={{borderRight: "solid"}}>&nbsp;</p>
-                <p className='text-gray-300 text-sm p-2'>{designation} at {company} </p>
+                <p className='p-2 pr-0 mr-2' style={{borderRight: "solid"}}>&nbsp;</p>
+                <p className='text-gray-300 text-[14px] p-2'>{designation} at {company} </p>
               </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`sm:px-16 px-0 -mt-20 pb-14`}>
-        <Carousel showThumbs={false} showStatus={false} showArrows={isDesktop} infiniteLoop autoPlay>
+        <Carousel showThumbs={false} showStatus={false} showArrows={isDesktop} infiniteLoop autoPlay={isDesktop}>
         {testimonials.map((testimonial) => (
             <div key={testimonial.name}>
               <FeedbackCard mobile={!isDesktop}  {...testimonial } />

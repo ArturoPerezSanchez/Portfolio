@@ -178,7 +178,7 @@ import {
   
   const testimonials = [
     {
-      head: "Positive, valuable team player.",
+      head: "Positive, valuable team player",
       testimonial:  "I found him to be a good teammate, he contributed positively to the good atmosphere in the group.",
       name: "Jesus Olmeda",
       designation: "Senior Consultant",
@@ -186,7 +186,7 @@ import {
       image: "https://media.licdn.com/dms/image/D4D03AQFPguqZov_HFQ/profile-displayphoto-shrink_400_400/0/1636124199078?e=1692835200&v=beta&t=CZNIVe5GUWmxRHe7EpLhK7GA-JRKh9Dfc8zZkt8JfE0",
     },
     {
-      head: "Pivotal to project success.",
+      head: "Pivotal to project success",
       testimonial: "Arturo is a proactive, organized and motivated person. He was key in the success of the project contributing ideas, learning and adapting quickly to the project environment.",
       name: "Joaquin Gonzalez",
       designation: "Software Integration Engineer",
@@ -194,7 +194,7 @@ import {
       image: "https://media.licdn.com/dms/image/C5603AQEhBVW_sxHNew/profile-displayphoto-shrink_400_400/0/1650908011469?e=1692835200&v=beta&t=N5PWPcE_uz6jawYVBo3jY69va7Raj04N0nZWKpfBmGE",
     },
     {
-      head: "Valued team member and client advocate.",
+      head: "Valued team member and client advocate",
       testimonial:
         "With a good attitude and good technical skills. In the time he was working with us Arturo became a reference person for both colleagues and the client.",
       name: "Victor Julio Sánchez",
@@ -203,7 +203,7 @@ import {
       image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1692835200&v=beta&t=DcWp6qpfGTsSUm7OSL29nu57E_uwxXtvrGBE-8p2P5Y",
     },
     {
-      head: "Dedicated and problem-solver.",
+      head: "Dedicated and problem-solver",
       testimonial: "An exceptional collaborator. High involvement in the work, always giving his maximum effort to obtain outstanding results. Characterized by his constant search for more efficient ways to perform the assigned tasks.",
       name: "Mikhael Del Aguila",
       designation: "Data Visualization Expert",

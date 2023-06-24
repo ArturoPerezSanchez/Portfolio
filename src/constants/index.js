@@ -73,67 +73,67 @@ import {
   const technologies = [
     {
       name: "Python",
-      color: '#00b4d8',
+      color: 'skyblue',
       icon: python,
     },
     {
       name: "C++",
-      color: '#03045e',
+      color: 'skyblue',
       icon: c_plus_plus,
     },
     {
       name: "Java",
-      color: '#90e0ef',
+      color: 'skyblue',
       icon: java,
     },
     {
       name: "HTML 5",
-      color: '#0077b6',
+      color: 'MediumSlateBlue',
       icon: html,
     },
     {
       name: "CSS 3",
-      color: '#caf0f8',
+      color: 'MediumSlateBlue',
       icon: css,
     },
     {
       name: "JavaScript",
-      color: '#03045e',
+      color: 'MediumSlateBlue',
       icon: javascript,
     },
     {
       name: "Node JS",
-      color: '#0077b6',
+      color: 'MediumSlateBlue',
       icon: nodejs,
     },
     {
       name: "React JS",
-      color: '#03045e',
+      color: 'MediumSlateBlue',
       icon: reactjs,
     },
     {
       name: "Tailwind CSS",
-      color: '#90e0ef',
+      color: 'MediumSlateBlue',
       icon: tailwind,
     },
     {
       name: "MongoDB",
-      color: '#00b4d8',
+      color: 'gold',
       icon: mongodb,
     },
     {
       name: "SQL",
-      color: '#caf0f8',
+      color: 'gold',
       icon: sql,
     },
     {
       name: "Git",
-      color: '#0077b6',
+      color: 'gold',
       icon: git,
     },
     {
       name: "Docker",
-      color: '#00b4d8',
+      color: 'gold',
       icon: docker,
     },
   ];

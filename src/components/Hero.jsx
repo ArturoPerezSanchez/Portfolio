@@ -8,7 +8,7 @@ const MobileHero = () => {
   return (
     <div className='relative w-full '>
       <div className='w-2/4 absolute left-2/4'>
-        <img src="https://avatars.githubusercontent.com/u/43266687?v=4" className='rounded-full w-full p-5'/>
+        <img src="https://avatars.githubusercontent.com/u/43266687?v=4" alt='Arturo avatar image' className='rounded-full w-full p-5'/>
       </div>
         <div className='w-full h-full flex flex-col bg-tertiary mr-8 p-8 rounded-3xl mt-16'>
         <a className="text-secondary" href='#about'><pre>&lt;About /&gt;</pre></a><br/>

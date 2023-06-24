@@ -24,6 +24,7 @@ const About = () => {
     <div className="mt-10 flex flex-wrap gap-[5em] justify-around">
       {services.map((service) => (
            <parallax-card
+           key = {service.title}
            title={service.title}
            src={service.icon}
            description={service.description}

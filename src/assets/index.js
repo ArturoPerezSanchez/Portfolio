@@ -1,45 +1,45 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import linkedin from "./linkedin.png"
-import leetcode from "./leetcode.png"
+import logo from "./logo.webp";
+import backend from "./backend.webp";
+import creator from "./creator.webp";
+import mobile from "./mobile.webp";
+import web from "./web.webp";
+import github from "./github.webp";
+import linkedin from "./linkedin.webp"
+import leetcode from "./leetcode.webp"
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import sql from "./tech/SQL.png";
-import python from "./tech/Python.png";
-import java from "./tech/Java.png";
-import c_plus_plus from "./tech/C++.png";
+import css from "./tech/css.webp";
+import docker from "./tech/docker.webp";
+import git from "./tech/git.webp";
+import html from "./tech/html.webp";
+import javascript from "./tech/javascript.webp";
+import mongodb from "./tech/mongodb.webp";
+import nodejs from "./tech/nodejs.webp";
+import reactjs from "./tech/reactjs.webp";
+import tailwind from "./tech/tailwind.webp";
+import sql from "./tech/SQL.webp";
+import python from "./tech/Python.webp";
+import java from "./tech/Java.webp";
+import c_plus_plus from "./tech/C++.webp";
 
 
-import Software_developer_logo from "./cards/Software_developer_logo.png";
-import data_analyst_logo from "./cards/Data_analyst_logo.png";
-import PO_logo from "./cards/PO_logo.png";
-import content_logo from "./cards/Content_logo.png";
-import Software_developer_background from "./cards/Software_developer_background.png";
-import data_analyst_background from "./cards/Data_analyst_background.png";
-import PO_background from "./cards/PO_background.png";
-import content_background from "./cards/Content_background.png";
+import Software_developer_logo from "./cards/Software_developer_logo.webp";
+import data_analyst_logo from "./cards/Data_analyst_logo.webp";
+import PO_logo from "./cards/PO_logo.webp";
+import content_logo from "./cards/Content_logo.webp";
+import Software_developer_background from "./cards/Software_developer_background.webp";
+import data_analyst_background from "./cards/Data_analyst_background.webp";
+import PO_background from "./cards/PO_background.webp";
+import content_background from "./cards/Content_background.webp";
 
-import qbi_solutions from "./company/qbi_solutions.png";
-import management_solutions from "./company/management_solutions.png";
-import ntt_data from "./company/ntt_data.png";
+import qbi_solutions from "./company/qbi_solutions.webp";
+import management_solutions from "./company/management_solutions.webp";
+import ntt_data from "./company/ntt_data.webp";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./carrent.webp";
+import jobit from "./jobit.webp";
+import tripguide from "./tripguide.webp";
 
 export {
   logo,

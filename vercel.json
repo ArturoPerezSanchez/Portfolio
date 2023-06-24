@@ -1,7 +1,7 @@
 {
     "headers": [
       {
-        "source": "/.*(jpg|JPG|gif|GIF|doc|DOC|pdf|PDF)",
+        "source": "/.*(?:js|css|html|json|xml|txt|bin)/",
         "headers": [
           {
             "key": "Content-Encoding",

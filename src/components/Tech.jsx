@@ -31,9 +31,9 @@ const Tech = () => {
           <div
             style={{
               background: technology.color,
-              textShadow: "2px 0 #0005, -2px 0 #0005, 0 2px #0005, 0 -2px #0005, 1px 1px #0005, -1px -1px #0005, 1px -1px #0005, -1px 1px #0005"
+              textShadow: "2px 0 #0009, -2px 0 #0009, 0 2px #0009, 0 -2px #0009, 1px 1px #0009, -1px -1px #0009, 1px -1px #0009, -1px 1px #0009"
             }}
-            className="w-full text-center rounded-full opacity-80"
+            className="w-full text-center rounded-full opacity-90"
           >
             {technology.name}
           </div>

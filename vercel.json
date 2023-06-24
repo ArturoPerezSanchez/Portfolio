@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "**/*.+(js|css|html|json|xml|txt|bin)",
+        "headers": [
+          {
+            "key": "Content-Encoding",
+            "value": "gzip"
+          }
+        ]
+      }
+    ]
+  }
+  

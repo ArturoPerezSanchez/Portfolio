@@ -6,7 +6,7 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { useMediaQuery } from 'react-responsive';
-
+import { github, linkedin, leetcode } from "../assets"
 
 const Contact = () => {
   const formRef = useRef();
@@ -89,10 +89,19 @@ const Contact = () => {
           <textarea rows="7" name="message" value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'/>
         </label>
 
+
+
         <button type="submit" className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
           {loading ? 'Sending...' : 'Send'}
         </button>
       </form>
+
+      <h5 style={{borderTop: '2px dashed #aaa6c3'}} className="pt-4 w-full mt-5  text-[14px] text-secondary uppercase tracking-wider">Or contact through my social networks</h5>
+      <div className='flex flex-row flex-wrap justify-around gap-4 mt-5'>
+          <div><a className="rounded-full" target="_blank" href="https://www.linkedin.com/in/arturoperezsanchez/"><img src={linkedin} alt="linkedin" className="md:w-12 md:h-12 w-8 h-8 rounded-full object-contain"></img></a></div>
+          <div><a className="rounded-full" target="_blank" href="https://leetcode.com/ArturoPerez/"><img src={leetcode} alt="leetcode" className="md:w-12 md:h-12 w-8 h-8 rounded-full object-contain"></img></a></div>
+          <div><a className="rounded-full" target="_blank" href="https://github.com/ArturoPerezSanchez" ><img src={github} alt="github" className="md:w-12 md:h-12 w-8 h-8 rounded-full object-contain"></img></a></div>        
+        </div>
       </motion.div>
 
 

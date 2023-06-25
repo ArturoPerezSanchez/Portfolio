@@ -45,8 +45,8 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
           />
-          <div className={`${toggle ?  'flex' : 'hidden'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-            <ul className='list-none flex justify-end items-start flex-col gap-4'>
+          <div className={`${toggle ?  'flex' : 'hidden'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[180px] z-10 rounded-xl`}>
+            <ul className='list-none flex justify-end items-start flex-col gap-4 w-full'>
               {navLinks.map((link) => (
                 <li
                   key={link.id}
@@ -58,6 +58,11 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li className='flex flex-row justify-between w-full'>
+                <div><a className="rounded-full" target="_blank" href="https://www.linkedin.com/in/arturoperezsanchez/"><img src={linkedin} alt="linkedin" className="w-7 h-7 rounded-full object-contain"></img></a></div>
+                <div><a className="rounded-full" target="_blank" href="https://leetcode.com/ArturoPerez/"><img src={leetcode} alt="leetcode" className="w-7 h-7 rounded-full object-contain"></img></a></div>
+                <div><a className="rounded-full" target="_blank" href="https://github.com/ArturoPerezSanchez" ><img src={github} alt="github" className="w-7 h-7 rounded-full object-contain"></img></a></div>
+              </li>
             </ul>
           </div>
           </div>

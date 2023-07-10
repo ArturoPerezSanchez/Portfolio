@@ -202,14 +202,14 @@ import {
       company: "Management Solutions",
       image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1692835200&v=beta&t=DcWp6qpfGTsSUm7OSL29nu57E_uwxXtvrGBE-8p2P5Y",
     },
-    {
-      head: "Dedicated and problem-solver",
-      testimonial: "An exceptional collaborator. High involvement in the work, always giving his maximum effort to obtain outstanding results. Characterized by his constant search for more efficient ways to perform the assigned tasks.",
-      name: "Mikhael Del Aguila",
-      designation: "Data Visualization Expert",
-      company: "EDNON",
-      image: "https://media.licdn.com/dms/image/D4D35AQFrfZ2JwB8t4g/profile-framedphoto-shrink_400_400/0/1675880155124?e=1687978800&v=beta&t=kQYPjYycQoSI_AKPm-9ogbXi9i7EA6ONiacyKos-iLU",
-    },
+    // {
+    //   head: "Dedicated and problem-solver",
+    //   testimonial: "An exceptional collaborator. High involvement in the work, always giving his maximum effort to obtain outstanding results. Characterized by his constant search for more efficient ways to perform the assigned tasks.",
+    //   name: "Mikhael Del Aguila",
+    //   designation: "Data Visualization Expert",
+    //   company: "EDNON",
+    //   image: "https://media.licdn.com/dms/image/D4D35AQFrfZ2JwB8t4g/profile-framedphoto-shrink_400_400/0/1675880155124?e=1687978800&v=beta&t=kQYPjYycQoSI_AKPm-9ogbXi9i7EA6ONiacyKos-iLU",
+    // },
     {
       head: "Highly valuable team member",
       testimonial: "His contribution to the team has been very significant, demonstrating his knowledge and leadership. He is a decisive person capable of working independently without neglecting cooperation with her colleagues.",

@@ -13,7 +13,7 @@ const MobileHero = () => {
         <div className='w-full h-full flex flex-col bg-tertiary mr-8 p-8 rounded-3xl mt-16'>
         <a className="text-secondary" href='#about'><pre>&lt;About /&gt;</pre></a><br/>
         <a className="text-secondary" href='#work'><pre>&lt;Experience /&gt;</pre></a><br/>
-        <a className="text-secondary" href='#works'><pre>&lt;Projects /&gt;</pre></a><br/>
+        {/* <a className="text-secondary" href='#works'><pre>&lt;Projects /&gt;</pre></a><br/> */}
         <a className="text-secondary" href='#feedbacks'><pre>&lt;Testimonials /&gt;</pre></a><br/>
         <a className="text-secondary" href='#contact'><pre>&lt;Contact /&gt;</pre></a>  
       </div>

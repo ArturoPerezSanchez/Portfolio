@@ -152,7 +152,7 @@ import {
       ],
     },
     {
-      title: "Data Science consultant",
+      title: "Software Engineer",
       company_name: "Management Solutions",
       icon: management_solutions,
       iconBg: "#012152",

@@ -183,7 +183,7 @@ import {
       name: "Jesus Olmeda",
       designation: "Senior Consultant",
       company: "Management Solutions",
-      image: "https://media.licdn.com/dms/image/D4D03AQFPguqZov_HFQ/profile-displayphoto-shrink_400_400/0/1636124199078?e=1692835200&v=beta&t=CZNIVe5GUWmxRHe7EpLhK7GA-JRKh9Dfc8zZkt8JfE0",
+      image: "https://media.licdn.com/dms/image/D4D03AQFPguqZov_HFQ/profile-displayphoto-shrink_400_400/0/1636124199078?e=1702512000&v=beta&t=OywZkv5lS2asJclUysUyX8vQbiJ4DOLC0NwyUCKcmwc",
     },
     {
       head: "Pivotal to project success",
@@ -191,7 +191,7 @@ import {
       name: "Joaquin Gonzalez",
       designation: "Software Integration Engineer",
       company: "EDICOM",
-      image: "https://media.licdn.com/dms/image/C5603AQEhBVW_sxHNew/profile-displayphoto-shrink_400_400/0/1650908011469?e=1692835200&v=beta&t=N5PWPcE_uz6jawYVBo3jY69va7Raj04N0nZWKpfBmGE",
+      image: "https://media.licdn.com/dms/image/C5603AQEhBVW_sxHNew/profile-displayphoto-shrink_400_400/0/1650908011469?e=1702512000&v=beta&t=c63tp0nBJ67dfXOFWjjOmwsfccU5OB75x-xKzTezb-g",
     },
     {
       head: "Valued team member and client advocate",
@@ -200,7 +200,7 @@ import {
       name: "Victor Julio Sánchez",
       designation: "Supervisor",
       company: "Management Solutions",
-      image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1692835200&v=beta&t=DcWp6qpfGTsSUm7OSL29nu57E_uwxXtvrGBE-8p2P5Y",
+      image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1702512000&v=beta&t=g4GYf3H6JqY3Gmc6Ji57ZCt4zaDQoW70XWYdwNUWgDQ",
     },
     // {
     //   head: "Dedicated and problem-solver",
@@ -216,7 +216,7 @@ import {
       name: "Joaquín Romero",
       designation: "I+D Researcher",
       company: "Proxya",
-      image: "https://media.licdn.com/dms/image/C5603AQHbHp-0DvKTmg/profile-displayphoto-shrink_400_400/0/1548962642212?e=1692835200&v=beta&t=LgeIQapM6bSM8B3ZlPmd7g1qlK3aBdvIpG0v82kDMfI",
+      image: "https://media.licdn.com/dms/image/C5603AQHbHp-0DvKTmg/profile-displayphoto-shrink_400_400/0/1548962642212?e=1702512000&v=beta&t=nkMDG8qzs3KkYCdErYKsz2JCp0b7ZiYQYn5ZEcSqphI",
     },
   ];
   

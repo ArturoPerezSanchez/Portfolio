@@ -45,7 +45,7 @@ import {
   
   const services = [
     {
-      title: "Software developer",
+      title: "Software Engineer",
       icon: Software_developer_logo,
       description: "7 Months of experience As a software developer at NTT Data, Implementing intuitive user interfaces, eensuring seamless user experiences and delivering high-quality frontend solutions.",
       background: Software_developer_background,
@@ -140,7 +140,7 @@ import {
   
   const experiences = [
     {
-      title: "Product Owner",
+      title: "Software Engineer",
       company_name: "QBI Solutions",
       icon: qbi_solutions,
       iconBg: "#DDDDDD",

@@ -18,6 +18,8 @@ import {
     docker,
     management_solutions,
     qbi_solutions,
+    mercedes,
+    anzen,
     ntt_data,
     carrent,
     jobit,
@@ -47,7 +49,7 @@ import {
     {
       title: "Software Engineer",
       icon: Software_developer_logo,
-      description: "7 Months of experience As a software developer at NTT Data, Implementing intuitive user interfaces, eensuring seamless user experiences and delivering high-quality frontend solutions.",
+      description: "4 years of experience. Strong background in algorithms and system design. Experienced in building scalable APIs, optimizing cloud deployments, and integrating AI-driven solutions.",
       background: Software_developer_background,
     },
     {
@@ -59,7 +61,7 @@ import {
     {
       title: "Product Owner",
       icon: PO_logo,
-      description: "As the Product Owner of QBI Solutions, I am leading cross-functional teams in developing innovative software solutions that have revolutionized data analysis in the renewable energies industry.",
+      description: "As the Product Owner of QBI Solutions, I led cross-functional teams in developing innovative software solutions that have revolutionized data analysis in the renewable energies industry.",
       background: PO_background,
     },
     {
@@ -141,10 +143,35 @@ import {
   const experiences = [
     {
       title: "Software Engineer",
+      company_name: "Mercedes Benz",
+      icon: mercedes,
+      iconBg: "#DDDDDD",
+      date: "June 2024 - Present",
+      points: [
+        "Optimized Kubernetes deployments with Helm, improving scalability and reducing downtime by 30%.",
+        "Deployed ML models using MLflow, Redis, and Milvus, enhancing data retrieval speed by 40%.",
+        "Built and optimized high-performance APIs with FastAPI, reducing response times by 35%.",
+        "Refactored a large-scale data pipeline in TypeScript, improving maintainability and processing efficiency by 25%."
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Anzen Engineering",
+      icon: anzen,
+      iconBg: "#fff",
+      date: "November 2023 - June 2024",
+      points: [
+        "Developed a Capella plugin in Java and Python, integrating ChatGPT to automate safety assessments, reducing manual analysis time by 50%.",
+        "Led the deployment of a web-based Capella version using Apache Guacamole, Docker, Kubernetes, and React, enabling remote access for 10+ engineers and improving collaboration.",
+        "Optimized workflows by automating data processing and validation, improving efficiency in safety analysis reports by 30%.",
+      ],
+    },
+    {
+      title: "Product Owner",
       company_name: "QBI Solutions",
       icon: qbi_solutions,
       iconBg: "#DDDDDD",
-      date: "April 2023 - Present",
+      date: "April 2023 - October 2023",
       points: [
         "Defined and prioritized product features working closely with stakeholders to gather requirements, analyze market trends, and define the product vision ensuring alignment with business goals and user needs.",
         "Managed the product roadmap, maintained a strategic roadmap that outlines the product's direction, milestones, and release plans.",
@@ -158,7 +185,7 @@ import {
       iconBg: "#012152",
       date: "September 2021 - March 2023",
       points: [
-        "Lead a team of 4 analysts in various management control projects for a major financial institution.",
+        "Led a team of 4 analysts in various management control projects for a major financial institution.",
         "Worked on the complete product development cycle for a major European bank, from the initial idea to production involving an important research component.",
         "Detected, analyzed and automated different repetitive tasks that were being carried out in the company.",
       ],
@@ -178,12 +205,21 @@ import {
   
   const testimonials = [
     {
+      head: "Valued team member and client advocate",
+      testimonial:
+        "With a good attitude and good technical skills. In the time he was working with us Arturo became a reference person for both colleagues and the client.",
+      name: "Victor Julio Sánchez",
+      designation: "Supervisor",
+      company: "Management Solutions",
+      image: "src/assets/feedback/Victor.jpg",
+    },
+    {
       head: "Positive, valuable team player",
       testimonial:  "I found him to be a good teammate, he contributed positively to the good atmosphere in the group.",
       name: "Jesus Olmeda",
-      designation: "Senior Consultant",
+      designation: "Experienced Senior Consultant",
       company: "Management Solutions",
-      image: "https://media.licdn.com/dms/image/D4D03AQFPguqZov_HFQ/profile-displayphoto-shrink_400_400/0/1636124199078?e=1702512000&v=beta&t=OywZkv5lS2asJclUysUyX8vQbiJ4DOLC0NwyUCKcmwc",
+      image: "src/assets/feedback/Jesus.jpg",
     },
     {
       head: "Pivotal to project success",
@@ -191,16 +227,7 @@ import {
       name: "Joaquin Gonzalez",
       designation: "Software Integration Engineer",
       company: "EDICOM",
-      image: "https://media.licdn.com/dms/image/C5603AQEhBVW_sxHNew/profile-displayphoto-shrink_400_400/0/1650908011469?e=1702512000&v=beta&t=c63tp0nBJ67dfXOFWjjOmwsfccU5OB75x-xKzTezb-g",
-    },
-    {
-      head: "Valued team member and client advocate",
-      testimonial:
-        "With a good attitude and good technical skills. In the time he was working with us Arturo became a reference person for both colleagues and the client.",
-      name: "Victor Julio Sánchez",
-      designation: "Supervisor",
-      company: "Management Solutions",
-      image: "https://media.licdn.com/dms/image/C4D03AQHTdUubxpyN9g/profile-displayphoto-shrink_400_400/0/1664267689028?e=1702512000&v=beta&t=g4GYf3H6JqY3Gmc6Ji57ZCt4zaDQoW70XWYdwNUWgDQ",
+      image: "src/assets/feedback/Joaquin.jpg",
     },
     // {
     //   head: "Dedicated and problem-solver",
@@ -216,7 +243,7 @@ import {
       name: "Joaquín Romero",
       designation: "I+D Researcher",
       company: "Proxya",
-      image: "https://media.licdn.com/dms/image/C5603AQHbHp-0DvKTmg/profile-displayphoto-shrink_400_400/0/1548962642212?e=1702512000&v=beta&t=nkMDG8qzs3KkYCdErYKsz2JCp0b7ZiYQYn5ZEcSqphI",
+      image: "src/assets/feedback/JoaquinR.jpg",
     },
   ];
   

@@ -34,6 +34,8 @@ import PO_background from "./cards/PO_background.webp";
 import content_background from "./cards/Content_background.webp";
 
 import qbi_solutions from "./company/qbi_solutions.webp";
+import anzen from "./company/anzen.webp"
+import mercedes from "./company/mercedes.webp";
 import management_solutions from "./company/management_solutions.webp";
 import ntt_data from "./company/ntt_data.webp";
 
@@ -67,6 +69,8 @@ export {
   tailwind,
   ntt_data,
   qbi_solutions,
+  mercedes,
+  anzen,
   management_solutions,
   carrent,
   jobit,

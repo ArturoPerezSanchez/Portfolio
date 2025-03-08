@@ -16,6 +16,10 @@ import {
     mongodb,
     git,
     docker,
+    victor,
+    jesus,
+    joaquin,
+    joaquin_r,
     management_solutions,
     qbi_solutions,
     mercedes,
@@ -211,7 +215,7 @@ import {
       name: "Victor Julio Sánchez",
       designation: "Supervisor",
       company: "Management Solutions",
-      image: "src/assets/feedback/Victor.jpg",
+      image: victor,
     },
     {
       head: "Positive, valuable team player",
@@ -219,7 +223,7 @@ import {
       name: "Jesus Olmeda",
       designation: "Experienced Senior Consultant",
       company: "Management Solutions",
-      image: "src/assets/feedback/Jesus.jpg",
+      image: jesus,
     },
     {
       head: "Pivotal to project success",
@@ -227,7 +231,7 @@ import {
       name: "Joaquin Gonzalez",
       designation: "Software Integration Engineer",
       company: "EDICOM",
-      image: "src/assets/feedback/Joaquin.jpg",
+      image: joaquin,
     },
     // {
     //   head: "Dedicated and problem-solver",
@@ -243,9 +247,10 @@ import {
       name: "Joaquín Romero",
       designation: "I+D Researcher",
       company: "Proxya",
-      image: "src/assets/feedback/JoaquinR.jpg",
+      image: joaquin_r,
     },
   ];
+
   
   const projects = [
     {

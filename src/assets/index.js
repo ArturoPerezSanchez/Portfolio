@@ -39,6 +39,11 @@ import mercedes from "./company/mercedes.webp";
 import management_solutions from "./company/management_solutions.webp";
 import ntt_data from "./company/ntt_data.webp";
 
+import victor from "./feedback/Victor.webp";
+import jesus from "./feedback/Jesus.webp";
+import joaquin from "./feedback/Joaquin.webp";
+import joaquin_r from "./feedback/JoaquinR.webp";
+
 import carrent from "./carrent.webp";
 import jobit from "./jobit.webp";
 import tripguide from "./tripguide.webp";
@@ -77,6 +82,10 @@ export {
   tripguide,
   Software_developer_logo,
   data_analyst_logo,
+  victor,
+  jesus,
+  joaquin,
+  joaquin_r,
   PO_logo,
   content_logo,
   Software_developer_background,
